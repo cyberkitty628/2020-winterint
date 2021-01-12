@@ -1,0 +1,3 @@
+# 2020 Winter Intensive Project 
+
+This is my project for the 2020 Winter Intensive. I chose to create a web-based photography portfolio using HTML/CSS and JavaScript. The individual this portfolio was intended for requested that I create a simple, user-friendly interface that would also serve to make his images stand out from the rest of the content. In the future, I hope to publish this website on a domain.
