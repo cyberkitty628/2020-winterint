@@ -5,7 +5,11 @@ body {
 	background-color: #000;
     margin: 0;
     letter-spacing: 1.5px;
-	}
+    }
+
+footer {
+    text-align: center;
+}
 
 a {
 	color: #10f7ff;
@@ -20,9 +24,11 @@ nav, main > section {
     }
 
 #bio {
+    font-size: 1.5em;
+    line-height: 50px;
     text-align: center;
-    margin: 20px;
-    padding: 25px;
+    margin: 50px;
+    padding: 35px;
 }
 
 #nav {
@@ -79,22 +85,23 @@ nav li:nth-child(6) {
     height: 700px;
 }
 
-.flex-container {
+.video-flex {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin: 40px;
 }
 
-.flex-child {
+.video-child {
     flex: 1;
 }
 
-.flex-child:nth-child(1) {
+.video-child:nth-child(1) {
     border: solid #000;
     }
 
-.flex-child:nth-child(2) {
+.video-child:nth-child(2) {
     border: solid #000;
     }
 
@@ -113,7 +120,8 @@ nav li:nth-child(6) {
 
 #contact > form > div {
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 80px;
     }
 
 #contact label {
@@ -173,10 +181,12 @@ nav li:nth-child(6) {
         }
 
 #about {
+    font-size: 20px;
     padding: 20px;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: -20px;
+    line-height: 35px;
 }
 
 #faq {
