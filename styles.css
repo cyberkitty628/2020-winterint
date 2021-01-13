@@ -31,6 +31,20 @@ nav, main > section {
     padding: 35px;
 }
 
+#bio button {
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #10f7ff;
+    text-shadow: rgb(0, 129, 123) 1px 1px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    border: 0px;
+    margin: 1em 0;
+    align-self: flex-end;
+    padding: 1em;
+}
+
 #nav {
     justify-content: space-between;
     align-items:baseline;
@@ -172,9 +186,7 @@ nav li:nth-child(6) {
         text-shadow: rgb(0, 129, 123) 1px 1px;
         letter-spacing: 1.5px;
         color: #fff;
-        border: solid;
         border: 0px;
-        border-radius: 3px;
         margin: 1em 0;
         align-self: flex-end;
         padding: 0.5em 1em;
